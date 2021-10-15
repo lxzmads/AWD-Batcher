@@ -17,7 +17,7 @@ Attack With Defense比赛中的exploit快速集成小脚本。
 ## 功能
 
 - [x] 根据IP段生成队伍IP与每个队伍的随机密码
-- [x] 批量化exp利用核心功能
+- [x] 批量化exp利用核心功能,实现的方式是动态加载所有可用exp，逐个尝试直到成功获取flag
 - [x] flag定时提交
 - [ ] 根据pcap流量生成exp
 - [ ] 根据监测到的HTTP Request生成exp

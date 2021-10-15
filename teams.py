@@ -46,7 +46,6 @@ def randpass():
     return ''.join(random.choices(string.ascii_letters, k=8))
 
 def main():
-    print(sys.argv)
     blacklist = ("172.35.14.10",) # 自己队伍的IP/师弟队伍的IP
 
     ipstr = "172.35.1-20.10" if len(sys.argv) < 2 else sys.argv[1]
